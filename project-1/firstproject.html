@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <title>slides</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+</head>
+
+
+<body>
+    <div class="hero">
+        <div class="carousel">
+            <ul>
+                <li><img src="images/img1.jpg"></li>
+                <li><img src="images/img2.jpg"></li>
+                <li><img src="images/img3.jpg"></li>
+                <li><img src="images/img4.jpg"></li>
+                <li><img src="images/img5.jpg"></li>
+                <li><img src="images/img6.jpg"></li>
+                <li><img src="images/img7.jpg"></li>
+                <li><img src="images/img8.jpg"></li>
+                <li><img src="images/img9.jpg"></li>
+                <li><img src="images/img10.jpg"></li>
+                <li>
+                    <p>Plain ol' <abbr>HTML</abbr>!</p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <script src="jquery.flipster.min.js"></script>
+    <script>
+        $(".carousel").flipster({
+            style: 'carousel',
+            spacing: -0.3,
+        });
+    </script>
+
+</body>
+
+</html>
