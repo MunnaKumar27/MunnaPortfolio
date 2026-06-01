@@ -282,11 +282,13 @@ ul {
     max-width: 60%;
 }
 
+h1.hello,
 h3.hello {
     font-size: 28px;
     margin: 15px 0;
 }
 
+h1.hello span,
 h3.hello span {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
@@ -1237,12 +1239,14 @@ h3.my-profession {
         margin-right: -10px;
     }
 
+    h1.hello,
     h3.hello,
     h3.my-profession {
         font-size: 24px;
         line-height: 1.45;
     }
 
+    h1.hello span,
     h3.hello span {
         font-size: 26px;
     }
