@@ -85,3 +85,57 @@
 {
     background: #f021b2;
 }
+
+@media (max-width: 767px)
+{
+    .style-switcher
+    {
+        top: 72px;
+        width: 180px;
+        right: 12px;
+        pointer-events: none;
+        transform: none;
+        background: transparent;
+        border-color: transparent;
+    }
+    .style-switcher.open
+    {
+        right: 12px;
+        pointer-events: auto;
+        transform: none;
+        background: var(--bg-black-100);
+        border-color: var(--bg-black-50);
+    }
+    .style-switcher:not(.open) h4,
+    .style-switcher:not(.open) .colors
+    {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .style-switcher .s-icon
+    {
+        position: fixed;
+        right: 18px;
+        margin-right: 0;
+        height: 38px;
+        width: 38px;
+        font-size: 18px;
+        z-index: 999;
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .style-switcher .s-icon i
+    {
+        line-height: 38px;
+    }
+    .style-switcher .day-night
+    {
+        top: 122px;
+    }
+    .style-switcher .style-switcher-toggler
+    {
+        top: 78px;
+    }
+}
